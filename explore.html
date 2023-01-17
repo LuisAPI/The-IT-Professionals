@@ -1,0 +1,238 @@
+<html>
+<title>EXPLORE - The IT Professionals</title>
+
+<style>
+    body {
+        background-color: #06283D;
+	   margin-top:0%;
+    }
+
+    #navigation {
+        animation: fadeInNav 1s forwards;
+        display: flex;
+        justify-content: center;
+    }
+
+    #nav {
+        position: fixed;
+        margin-top: 20px;
+        padding: 20px;
+        background-color: #256D85;
+        border-radius: 30px;
+        font-family: monospace;
+        font-size: 2vw;
+    }
+
+    #title {
+        margin: auto;
+        width: 50%;
+        animation: fadeIn 1s forwards;
+    }
+
+    @keyframes fadeInNav {
+        0% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 0.9;
+            transform: translate(0px, 20px);
+
+        }
+    }
+
+    @keyframes fadeIn {
+        0% {
+            opacity: 0;
+
+        }
+
+        100% {
+            opacity: 1;
+            transform: scale(1.1);
+            transform: translate(0, 140px);
+        }
+    }
+
+    h1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        color: white;
+        font-family: monospace;
+        font-size: 3vw;
+        text-shadow: 10px 10px 8px black;
+    }
+
+    h2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 20px;
+        color: white;
+        font-family: monospace;
+        font-size: 1.5vw;
+        height: auto;
+        text-shadow: 10px 10px 8px black;
+    }
+
+    a {
+        padding: 10px;
+        border-radius: 10px;
+        text-decoration: none;
+        box-shadow: inset 0 0 0 0 #47B5FF;
+        color: #54b3d6;
+        transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+    }
+
+    a:hover {
+        box-shadow: inset 0 0 0 6px #53a7ea;
+        color: white;
+        border-radius: 10px;
+        padding: 10px;
+    }
+
+    .container {
+        margin-left: -10px;
+        position: absolute;
+        width: 100%;
+        height: 320px;
+        background-image: url("Pic1.jpg");
+        background-size: cover;
+        background-position-x: 0px;
+        background-position-y: 730px;
+        opacity: 20%;
+        z-index: -2;
+    }
+
+    .box {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        border-radius: 20px;
+        height: 600px;
+        width: 1700px;
+        background-color: #256D85;
+    }
+
+    #box1 {
+        background-image: url(IT.jpg);
+        background-size: cover;
+        background-position-x: 380px;
+        background-position-y: 0px;
+        height: 51vh;
+        width: 20vw;
+        border-radius: 40px;
+        transition: ease-in-out 0.3s;
+    }
+
+    #box1:hover {
+        filter: grayscale(1);
+        filter: drop-shadow(25px 10px 4px #06283D);
+    }
+
+    #box2 {
+        background-image: url(IT2.jpg);
+        background-size: cover;
+        background-position-x: 440px;
+        background-position-y: 0px;
+        height: 51vh;
+        width: 20vw;
+        border-radius: 40px;
+        transition: ease-in-out 0.3s;
+    }
+
+    #box2:hover {
+        filter: grayscale(1);
+        filter: drop-shadow(25px 10px 4px #06283D);
+    }
+
+    #box3 {
+        background-image: url(IT3.jpg);
+        background-size: cover;
+        background-position-x: 400px;
+        background-position-y: 0px;
+        height: 51vh;
+        width: 20vw;
+        border-radius: 40px;
+        transition: ease-in-out 0.3s;
+    }
+
+    #box3:hover {
+        
+        filter: drop-shadow(25px 10px 4px #06283D);
+    }
+
+    .txt {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 30px;
+        text-align: center;
+        font-family: monospace;
+        height: 51vh;
+        opacity: 0;
+        transition: ease-in-out 0.6s;
+        border-radius: 30px;
+    }
+    
+    .txt:hover {
+        opacity: 1;
+        background-color: #06283D;
+        border-radius: 30px;
+    }
+</style>
+
+<header>
+    <div class="container">
+    </div>
+    <nav id="navigation">
+        <div id="nav">
+            <a href="home.html">HOME</a>
+
+            <a href="explore.html">EXPLORE</a>
+
+            <a href="aboutUs.html">ABOUT US</a>
+        </div>
+    </nav>
+    <!--Body-->
+    </div>
+</header>
+
+<body>
+
+
+    <div id="title">
+        <h1>THE IT PROFESSIONALS</h1>
+        <h2>By the Pseudowoodos</h2>
+    </div>
+
+    <div style="display: flex; justify-content: center; margin-top: 200px;">
+        <div class="box">
+            <a href="aboutITpro.html" id="box1">
+              <div class="txt"><p>About IT Professionals</p></div>
+            </a>
+            <a href="skills.html" id="box2">
+              <div class="txt"><p>Skills of an IT Professional</p></div>
+            </a>
+            <a href="jobs.html" id="box3">
+             <div class="txt"><p>Jobs for IT and CS</p></div>
+            </a>
+        </div>
+    </div>
+    <!--
+	<div style=text-align:center;>
+
+		<a href="explore.html">
+			LET'S EXPLORE
+		</a>
+
+	</div>
+	
+	<footer id="footer">
+	</footer>
+-->
+</body>
+
+</html>
