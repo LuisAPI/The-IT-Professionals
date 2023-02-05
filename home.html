@@ -1,0 +1,275 @@
+<html>
+<title>HOME - The IT Professionals</title>
+
+<style>
+	body {
+		background-color: #06283D;
+		margin-top:0%;
+
+	}
+
+	#nav {
+		animation: fadeInNav 1s forwards;
+		position: fixed;
+		padding: 20px;
+		background-color: #256D85;
+		border-radius: 30px;
+		font-family: monospace;
+		font-size: 2vw;
+		z-index: 1;
+	}
+
+	#title {
+		margin: auto;
+		width: 50%;
+		animation: fadeIn 1s forwards;
+	}
+
+	@keyframes fadeInNav {
+		0% {
+			opacity: 0;
+		}
+
+		100% {
+			opacity: 0.9;
+			transform: translate(0px, 20px);
+
+		}
+	}
+
+	@keyframes fadeIn {
+		0% {
+			opacity: 0;
+
+		}
+
+		100% {
+			opacity: 1;
+			transform: translate(0px, 140px);
+		}
+	}
+
+	h1 {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin: auto;
+		color: white;
+		font-family: monospace;
+		font-size: 3vw;
+		text-shadow: 10px 10px 8px black;
+	}
+
+	h2 {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin: 20px;
+		color: white;
+		font-family: monospace;
+		font-size: 1.5vw;
+		height: auto;
+		text-shadow: 10px 10px 8px black;
+	}
+
+	h3 {
+		color: white;
+		font-family: monospace;
+		font-size: 30px;
+		width: auto;
+		text-align:justify;
+	}
+
+	a {
+		padding: 10px;
+		border-radius: 10px;
+		text-decoration: none;
+		box-shadow: inset 0 0 0 0 #47B5FF;
+		color: #54b3d6;
+		transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+	}
+
+	a:hover {
+		box-shadow: inset 0 0 0 6px #53a7ea;
+		color: white;
+		border-radius: 10px;
+		padding: 10px;
+	}
+
+	.container {
+		margin-left: -10px;
+		position: absolute;
+		width: 100%;
+		height: 320px;
+		background-image: url("Pic1.jpg");
+		background-size: cover;
+		background-position-x: 0px;
+		background-position-y: 730px;
+		opacity: 20%;
+		z-index: -2;
+	}
+
+	#para {
+		transform: translate(50px, 250px);
+		width: 55vw;
+		display: flex;
+		align-content: center;
+	}
+
+	#footer {
+		background-color: #2B4865;
+		height: 50px;
+	}
+
+	.P1 {
+		display: flex;
+		align-items: center;
+		background-image: url("P1.jpg");
+		background-size: cover;
+		margin: 5px;
+		width: 200px;
+		height: 200px;
+	}
+
+	.P2 {
+		background-image: url("P2.jpg");
+		background-size: cover;
+		margin: 5px;
+		width: 200px;
+		height: 200px;
+	}
+
+	.P3 {
+		background-image: url("P3.jpg");
+		background-size: cover;
+		margin: 5px;
+		width: 200px;
+		height: 200px;
+	}
+
+	.P4 {
+		background-image: url("P4.jpg");
+		background-size: cover;
+		margin: 5px;
+		width: 200px;
+		height: 200px;
+	}
+
+	#content1 {
+		margin-right: 10px;
+		margin-top:-145px;
+		display: flex;
+		justify-content: center;
+		float: right;
+		transform: rotate(45deg);
+		background-color: #256D85;
+	}
+	#content2 {
+		margin-right: -275px;
+		display: flex;
+		justify-content: center;
+		float: right;
+		transform: rotate(45deg);
+		background-color: #256D85;
+	}
+
+.backbutton {
+	border: none;
+	color: white;
+	padding: 20px;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 235px 0px 0px 0px;
+	cursor: pointer;
+	transition: transform .2s;
+	background-color: #256D85;
+     border-radius: 30px;
+     font-family: monospace;
+     font-size: 2vw;
+}
+.backbutton:hover {
+	transform: scale(1.09);
+
+}
+
+</style>
+
+<header>
+	<div class="container">
+	</div>
+	<div style="display: flex; justify-content: center;">
+		<div id="nav">
+			<a href="home.html">HOME</a>
+
+			<a href="explore.html">EXPLORE</a>
+
+			<a href="aboutUs.html">ABOUT US</a>
+		</div>
+	</div>
+	<!--Body-->
+	</div>
+</header>
+
+<body>
+
+
+	<div id="title">
+		<h1>THE IT PROFESSIONALS</h1>
+		<h2>By the Pseudowoodos</h2>
+	</div>
+
+
+	<div id="para">
+		<h3>
+			Computer technology have shaped our world and may now be found in nearly every element of modern
+			civilization. As a result, computer science is one of the fastest growing areas, and it shows no indications
+			of slowing down anytime soon. With a computer science or information technology degree, you may work for a
+			range of companies,aiding in the creation of software, database administration, or website construction.
+			Other areas, such as finance, law enforcement, and design, also provide career opportunities.
+		</h3>
+
+	</div>
+
+	<div id="content1">
+		<div class="P1">
+		</div>
+
+		<div class="P2">
+		</div>
+	</div>
+	<div id="content2">
+		<div class="P3">
+		</div>
+
+		<div class="P4">
+		</div>
+	</div>
+
+	<div>
+		<center>
+		<button onclick="document.location='explore.html'" 
+		class = backbutton>
+			<a href = explore.html>
+				LET'S EXPLORE 
+			</a>
+		</button>
+		</center>
+	</div>
+
+
+	<!--
+	<div style=text-align:center;>
+
+		<a href="explore.html">
+			LET'S EXPLORE
+		</a>
+
+	</div>
+	
+	<footer id="footer">
+	</footer>
+-->
+</body>
+
+</html>
