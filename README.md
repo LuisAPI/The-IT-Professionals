@@ -3,6 +3,11 @@
 
 Learn more about the burgeoning Information Technology (IT) sector, in this short website made in a week.
 
+![Build Status](https://img.shields.io/github/actions/workflow/status/LuisAPI/The-IT-Professionals/static.yml)
+![Code Size](https://img.shields.io/github/languages/code-size/LuisAPI/The-IT-Professionals)
+![Contributors](https://img.shields.io/github/contributors/LuisAPI/The-IT-Professionals)
+![Last Commit](https://img.shields.io/github/last-commit/LuisAPI/The-IT-Professionals)
+
 * View the resulting website at: https://luisapi.github.io/The-IT-Professionals
 
 ----
